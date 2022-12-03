@@ -1,13 +1,20 @@
 #include "lib.h"
 
-bool Primo(int numero){
+bool numero(int n) {
+    int i=1,x=0;
 
-for(int i=2;i<numero;i++) {
-   if (numero % i == 0) {
-   return false;
-   }
+    if(n>1)
+        do{
+            i++;
+           x=n%i;
+          }while(x);
+    if(i==n){
+
+        return true;
+
+
+    }
+    else{
+        return false;
+    }
 }
-
-return true;
-}
-
