@@ -1,6 +1,5 @@
 #include "lib.h"
-
-bool numero(int n) {
+bool funzione (int n) {
     int i=1,x;
 
     if(n>1)
@@ -12,8 +11,10 @@ bool numero(int n) {
 
         return true;
 
+
     }
     else{
         return false;
     }
 }
+
