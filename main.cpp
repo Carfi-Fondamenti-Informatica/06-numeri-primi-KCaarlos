@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    int n=0;
+    int n;
 
     cin >>n;
 bool risultato=numero(n);
