@@ -17,5 +17,5 @@ int main() {
    else {
         cout << "non numero  Primo" << endl;
     } 
-
+return 0;
 }
