@@ -1,2 +1,2 @@
-
-bool Primo(int numero);
+  
+bool numero(int);
