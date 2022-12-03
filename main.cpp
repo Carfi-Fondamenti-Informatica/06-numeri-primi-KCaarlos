@@ -2,20 +2,21 @@
 #include "lib.h"
 using namespace std;
 
-bool Primo(int numero);
-
 int main() {
 
-    int numero = 0;
+    int n=0;
 
-    cin >> numero;
+    cin >>n;
+bool risultato=numero(n);
 
-    if (Primo(numero)) {
+    if (risultato==true) {
         cout << "numero Primo" << endl;
     }
     
    else {
         cout << "non numero  Primo" << endl;
     } 
+    
+    
 return 0;
 }
