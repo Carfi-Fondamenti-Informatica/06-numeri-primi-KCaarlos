@@ -1,7 +1,7 @@
 #include "lib.h"
 
 bool numero(int n) {
-    int i=1,x=0;
+    int i=1,x;
 
     if(n>1)
         do{
@@ -11,7 +11,6 @@ bool numero(int n) {
     if(i==n){
 
         return true;
-
 
     }
     else{
