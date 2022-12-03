@@ -1,2 +1,1 @@
-  
-bool numero(int);
+  bool numero(int);
